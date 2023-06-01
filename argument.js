@@ -6,7 +6,11 @@ function addNumbers(num1,num2){
    // console.log(num);
    sum=sum+num;
   }
+  function loginfo (message){
+    console.log(message);
+  }
   //return num1+num2;
+  loginfo('good morning')
   return sum;
 }
 var result=addNumbers(5,5,8,15,29);
